@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "cmc",
+    "libraryId": "52ac3fe1-317a-4f7e-9814-5b99012aa915",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "componentType": "webpart"
+  }
+}

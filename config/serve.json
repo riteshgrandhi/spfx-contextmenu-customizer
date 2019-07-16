@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://your_org.sharepoint.com/sites/your_site/SitePages/your_page.aspx",
+      "customActions": {
+        "76d01a5f-1481-4bcb-98ca-92d77740e61b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "contextMenuCustomizer": {
+      "pageUrl": "https://your_org.sharepoint.com/sites/your_site/SitePages/your_page.aspx",
+      "customActions": {
+        "76d01a5f-1481-4bcb-98ca-92d77740e61b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

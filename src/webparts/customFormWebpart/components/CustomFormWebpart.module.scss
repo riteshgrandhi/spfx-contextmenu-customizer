@@ -1,0 +1,12 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.formBox {
+  input,
+  textarea {
+    border: 1px dotted #888888;
+  }
+}
+
+.container {
+  border: 1px dashed #aaaaaa;
+}
