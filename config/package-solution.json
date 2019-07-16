@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cmc-client-side-solution",
+    "id": "52ac3fe1-317a-4f7e-9814-5b99012aa915",
+    "version": "0.0.1.1",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "6a167cd2-47e6-43df-830c-6354caf9cc50",
+        "version": "0.0.1.1",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cmc.sppkg"
+  }
+}

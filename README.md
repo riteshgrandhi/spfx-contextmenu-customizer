@@ -1,6 +1,7 @@
-## cmc
+## Context Menu Customizer
 
-This is where you include your WebPart documentation.
+Context Menu Customizer provides a way for SPFx developers to make customized context menus and actions on top of SharePoint Modern Pages.
+Enable Customers to and add Custom Actions without compromising the Modern SharePoint Experience
 
 ### Building the code
 

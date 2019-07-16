@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "context-menu-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/contextMenuCustomizer/ContextMenuCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/contextMenuCustomizer/ContextMenuCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "custom-form-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customFormWebpart/CustomFormWebpartWebPart.js",
+          "manifest": "./src/webparts/customFormWebpart/CustomFormWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ContextMenuCustomizerApplicationCustomizerStrings": "lib/extensions/contextMenuCustomizer/loc/{locale}.js",
+    "CustomFormWebpartWebPartStrings": "lib/webparts/customFormWebpart/loc/{locale}.js"
+  }
+}
